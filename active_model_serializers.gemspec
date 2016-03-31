@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
   spec.executables   = []
 
-  spec.required_ruby_version = '>= 2.0.0'
+  spec.required_ruby_version = '>= 1.9.3'
 
   rails_versions = '>= 4.0'
   spec.add_runtime_dependency 'activemodel', rails_versions
